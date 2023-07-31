@@ -32,6 +32,15 @@
 				buttons, Etourne aims to make event planning simple.
 			</p>
 		</div>
+
+		<div class="contact">
+			<h2>Got questions?</h2>
+			<p>Join Discord Server or email info@noobdev54.com.</p>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>Copyright © 2023 All Rights Reserved</p>
 	</div>
 </div>
 
@@ -39,6 +48,9 @@
 	.parent {
 		min-height: 100vh;
 		background-color: var(--secondary-color);
+
+		display: flex;
+		flex-direction: column;
 
 		.navbar {
 			background-color: var(--light-secondary-color);
@@ -101,6 +113,43 @@
 
 		.layout {
 			margin: 0 150px;
+
+			.about {
+				color: var(--white-color);
+
+				h2 {
+					font-size: var(--subheading-font-size);
+				}
+
+				p {
+					font-size: var(--normal-font-size);
+					margin-top: 15px;
+					line-height: 25px;
+				}
+			}
+
+			.contact {
+				margin-top: 60px;
+				color: var(--white-color);
+
+				h2 {
+					font-size: var(--subheading-font-size);
+				}
+
+				p {
+					font-size: var(--normal-font-size);
+					margin-top: 15px;
+					line-height: 25px;
+				}
+			}
+		}
+
+		.footer {
+			margin-top: 100px;
+			justify-self: flex-end;
+			padding: 25px 50px;
+			color: var(--black-color);
+			background-color: #f1f1f1;
 		}
 	}
 </style>
