@@ -154,5 +154,29 @@
 			color: var(--black-color);
 			background-color: #f1f1f1;
 		}
+
+		@media screen and (max-width: 1024px) {
+			.layout {
+				margin: 0 100px;
+			}
+		}
+
+		@media screen and (max-width: 768px) {
+			.navbar {
+				padding: 25px 30px;
+
+				a {
+					padding: 15px 20px;
+
+					img {
+						width: 30px;
+					}
+				}
+			}
+
+			.layout {
+				margin: 0 50px;
+			}
+		}
 	}
 </style>
