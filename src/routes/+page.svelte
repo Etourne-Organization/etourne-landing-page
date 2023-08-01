@@ -9,7 +9,10 @@
 <div class="parent">
 	<div class="navbar">
 		<img src="/logo/e-logo.svg" alt="logo" />
-		<a class="add-discord-bot-btn" href="/">
+		<a
+			class="add-discord-bot-btn"
+			href="https://discord.com/api/oauth2/authorize?client_id=981646160798290051&permissions=17869480258752&scope=bot%20applications.commands"
+		>
 			<img src="/icons/discord-logo.svg" alt="discord logo" /> Add Discord Bot
 		</a>
 	</div>
