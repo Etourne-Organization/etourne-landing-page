@@ -174,8 +174,43 @@
 				}
 			}
 
+			.hero {
+				padding: 80px 50px;
+			}
+
 			.layout {
 				margin: 0 50px;
+			}
+
+			.footer {
+				padding: 25px 30px;
+			}
+		}
+
+		@media screen and (max-width: 425px) {
+			.navbar {
+				padding: 40px 30px;
+
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 30px;
+
+				a {
+					padding: 15px 20px;
+
+					img {
+						width: 30px;
+					}
+				}
+			}
+
+			.hero {
+				padding: 80px 30px;
+			}
+
+			.layout {
+				margin: 0 20px;
 			}
 		}
 	}
